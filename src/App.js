@@ -1,4 +1,5 @@
 import './App.css';
+import ColorBox from './components/ColorBox';
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <h1>
         Welcome
       </h1>
+      <ColorBox />
     </div>
   );
 }
